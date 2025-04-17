@@ -1,4 +1,3 @@
-
 import type { Config } from "tailwindcss";
 
 export default {
@@ -24,60 +23,32 @@ export default {
 				display: ["'Playfair Display'", 'serif'],
 			},
 			colors: {
-				border: 'hsl(var(--border))',
-				input: 'hsl(var(--input))',
-				ring: 'hsl(var(--ring))',
-				background: 'hsl(var(--background))',
-				foreground: 'hsl(var(--foreground))',
 				primary: {
-					DEFAULT: '#6E59A5',
-					light: '#9b87f5',
-					dark: '#5A459E',
-					foreground: '#FFFFFF'
+					DEFAULT: '#2563eb',
+					light: '#93c5fd',
+					dark: '#1e40af',
+					foreground: '#ffffff'
 				},
 				secondary: {
-					DEFAULT: '#33C3F0',
-					light: '#63D3F7',
-					dark: '#1EAEDB',
-					foreground: '#FFFFFF'
+					DEFAULT: '#93c5fd',
+					light: '#bae6fd',
+					dark: '#60a5fa',
+					foreground: '#1e293b'
 				},
-				accent: {
-					DEFAULT: '#D6BCFA',
-					light: '#E9DAFE',
-					dark: '#B794F6',
-					foreground: '#403E43'
-				},
-				destructive: {
-					DEFAULT: 'hsl(var(--destructive))',
-					foreground: 'hsl(var(--destructive-foreground))'
-				},
+				background: '#ffffff',
+				foreground: '#1e293b',
 				muted: {
-					DEFAULT: '#F6F6F7',
-					foreground: '#8A898C'
+					DEFAULT: '#f8fafc',
+					foreground: '#64748b'
 				},
 				neutral: {
-					DEFAULT: '#403E43',
-					light: '#8A898C',
-					dark: '#221F26',
+					DEFAULT: '#e2e8f0',
+					light: '#f8fafc',
+					dark: '#1e293b'
 				},
-				popover: {
-					DEFAULT: 'hsl(var(--popover))',
-					foreground: 'hsl(var(--popover-foreground))'
-				},
-				card: {
-					DEFAULT: 'hsl(var(--card))',
-					foreground: 'hsl(var(--card-foreground))'
-				},
-				sidebar: {
-					DEFAULT: 'hsl(var(--sidebar-background))',
-					foreground: 'hsl(var(--sidebar-foreground))',
-					primary: 'hsl(var(--sidebar-primary))',
-					'primary-foreground': 'hsl(var(--sidebar-primary-foreground))',
-					accent: 'hsl(var(--sidebar-accent))',
-					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
-					border: 'hsl(var(--sidebar-border))',
-					ring: 'hsl(var(--sidebar-ring))'
-				}
+				border: '#e2e8f0',
+				input: '#e2e8f0',
+				ring: '#2563eb'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
